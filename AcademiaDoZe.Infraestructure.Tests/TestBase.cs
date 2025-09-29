@@ -13,6 +13,5 @@ public abstract class TestBase
     {
         var connectionString = "Server=localhost;Database=db_academia_do_ze;User Id=root;Password=rayssa;";
 
-        return (connectionString, DatabaseType.MySql);
     }
 }
