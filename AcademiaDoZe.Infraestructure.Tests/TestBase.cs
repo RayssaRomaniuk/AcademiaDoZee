@@ -1,7 +1,6 @@
 using AcademiaDoZe.Infrastructure.Data;
 namespace AcademiaDoZe.Infrastructure.Tests;
 public abstract class TestBase
-{
     protected string ConnectionString { get; private set; }
     protected DatabaseType DatabaseType { get; private set; }
     protected TestBase()
@@ -15,6 +14,5 @@ public abstract class TestBase
         var connectionString = "Server=localhost;Database=db_academia_do_ze;User Id=root;Password=rayssa;";
 
         return (connectionString, DatabaseType.MySql);
-
     }
 }
