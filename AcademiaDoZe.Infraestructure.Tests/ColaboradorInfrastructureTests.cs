@@ -44,6 +44,7 @@ public class ColaboradorInfrastructureTests : TestBase
         EColaboradorVinculo.CLT
 
         );
+        
 
         var repoColaboradorAdicionar = new ColaboradorRepository(ConnectionString, DatabaseType);
         var colaboradorInserido = await repoColaboradorAdicionar.Adicionar(colaborador);
