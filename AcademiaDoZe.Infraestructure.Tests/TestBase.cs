@@ -3,7 +3,6 @@
 using AcademiaDoZe.Infrastructure.Data;
 
 namespace AcademiaDoZe.Infrastructure.Tests;
-
 public abstract class TestBase
 {
     protected string ConnectionString { get; private set; }
